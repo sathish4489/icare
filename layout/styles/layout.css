@@ -52,7 +52,7 @@ File: Layout CSS
 
 #pageintro .introtxt{display:block; max-width:70%; margin:0; padding:25px 0 25px 50px; border-left:3px double;}
 #pageintro .introtxt *{margin:0;}
-#pageintro .introtxt .heading{margin-bottom:30px; font-size:46px;}
+#pageintro .introtxt .heading{margin-bottom:30px; font-size:31px;}
 
 
 /* Areas
@@ -64,7 +64,7 @@ File: Layout CSS
 #areas ul li *{margin:0; padding:0; line-height:1;}
 #areas ul li div{display:block; position:relative; padding:40px 15px 25px 15px;}
 #areas ul li .icon{display:block; position:absolute; top:0; left:50%; width:50px; height:50px; line-height:50px; margin:-25px 0 0 -25px; font-size:26px;}
-#areas ul li .heading{font-size:1.2rem; text-transform:uppercase;}
+#areas ul li .heading{font-size:1.2rem;}
 
 
 /* Content Area
@@ -256,6 +256,7 @@ td{border-width:0 1px;}
 .faicon-facebook:hover{color:#3B5998;}
 .faicon-google-plus:hover{color:#DB4A39;}
 .faicon-linkedin:hover{color:#0E76A8;}
+.faicon-instagram:hover{color:#8a3ab9;}
 .faicon-pinterest:hover{color:#C8232C;}
 .faicon-rss:hover{color:#EE802F;}
 .faicon-twitter:hover{color:#00ACEE;}
@@ -274,6 +275,7 @@ body{color:#EBEBEB; background-color:#292E38;}
 a{color:#93C131;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 h1, h2, h3, h4, h5, h6, .heading{color:#000000;}
+.para{color:#3f3f3f}
 hr, .borderedbox{border-color:#6D758D;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#93C131;}
@@ -313,7 +315,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#93C131;}
 #areas{color:#FFFFFF; background-color:rgba(60,64,77,.8);/* #3C404D */ border-color:#292E38;}
 #areas ul li div{background-color:#292E38;}
 #areas ul li .icon{background-color:#6D758D;}
-#areas ul li:hover div{background-color:#FFFFFF;}
+#areas ul li:hover div{background-color:#292E38;}
 #areas ul li:hover a{color:#93C131;}
 
 
